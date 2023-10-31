@@ -213,7 +213,7 @@ nav .navlinks li a:hover{
         margin-bottom: 15px;
         text-align: center;
     }
-    nav .navlinks .open{
+    nav .navlinks.open{
         right: 0;
     }
 }
