@@ -8,7 +8,7 @@ togglebtn.addEventListener("click", function(){
 })
 
 var typed=new Typed(".input",{
-    strings:["minsan naging pogi", "minsan naging pangit", "laging antok hahaha"],
+    strings:["Manong bayad po", "Saan tong bente ne?", "Estudyante po..", "Saang lugar yon?"],
     typedSpeed:70,
     backSpeed:55,
     loop:true
