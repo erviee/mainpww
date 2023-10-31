@@ -1,0 +1,15 @@
+*{
+    margin: 10px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1397971810/vector/floral-seamless-botanica-pattern-orchid-flower-isolated-modern-monochrome-wallpaper-hand.jpg?s=1024x1024&w=is&k=20&c=X7wJqar-VFPYMtZ-u0V8ayHkZ1DPZb89mdQ6nnlOQfY=);
+}
+h1, h3, p{
+    text-align: center;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
+    text-align: center;
+}

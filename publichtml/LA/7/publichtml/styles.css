@@ -1,0 +1,48 @@
+*{
+    font-family: Palatino, URW Palladio L, serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: darkcyan;
+    padding: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+nav{
+    float: right;
+    width: 150px;
+    height: 265px;
+    background-color: darkolivegreen;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    padding: 0%;
+}
+nav ul li a{
+    font-weight: 500;
+    color: aqua;
+    text-decoration: none;
+}
+article{
+    float: left;
+    padding: 25px;
+    height: 265px;
+    width: 85%;
+    background-color: rgb(170, 214, 93);
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+    background-color: darkcyan;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

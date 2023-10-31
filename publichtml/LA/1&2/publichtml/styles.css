@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #fff;
+}
+p{
+    color: white;
+    text-align: justify;
+}
+.content{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
