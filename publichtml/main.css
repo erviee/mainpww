@@ -87,12 +87,12 @@ nav .navlinks li a{
     font-weight: bold;
 }
 nav .navlinks li a:hover{
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg,rgb(139, 220, 247), rgb(243, 65, 136), #333));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .active1{
-    background: linear-gradient(45deg, #f06, #3cf);
+    background: linear-gradient(45deg,rgb(139, 220, 247), rgb(243, 65, 136), #333);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -155,6 +155,11 @@ nav .navlinks li a:hover{
 .btn.active{
     border-color: #007ced;
     background-image: linear-gradient(45deg, #f06, #3cf);
+}
+.btn-group .btn:hover{
+    background: linear-gradient(45deg,rgb(139, 220, 247), rgb(243, 65, 136), #333);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .hero-text .social i{
     color: #e5e5e5;
@@ -243,9 +248,6 @@ nav .navlinks li a:hover{
 }
 
 .zoom-wrapper:hover img {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
-.logo{
-    width: 140px;
-    height: 100px;
-}
+
