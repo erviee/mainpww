@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        padding: 30px;
+        background: linear-gradient(-45deg, rgb(128, 128, 128), rgb(37, 37, 37), rgb(32, 18, 20));
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+
+    p,
+    h2 {
+        color: white;
+        font-weight: bold;
+    }
+
+    p.dotted {
+        border-style: dotted;
+        opacity: 0.3;
+    }
+
+    p.dashed {
+        border-style: dashed;
+        opacity: 0.1;
+    }
+
+    p.solid {
+        border-style: solid;
+        background-image: url(milkyway.gif);
+    }
+
+    p.double {
+        border-style: double;
+    }
+
+    p.groove {
+        border-style: groove;
+    }
+
+    p.ridge {
+        border-style: ridge;
+    }
+
+    p.inset {
+        border-style: inset;
+    }
+
+    p.outset {
+        border-style: outset;
+    }
+
+    p.none {
+        border-style: none;
+    }
+
+    p.hidden {
+        border-style: hidden;
+    }
+
+    p.mix {
+        border-style: dotted dashed solid double;
+        background-image: url(fish.jpg);
+    }
+
+    .btn-group {
+        margin: 45px 0;
+    }
+
+    .btn-group .btn {
+        border-color: #d5d5d5;
+        color: #fff;
+        background-color: #333;
+        padding: 12px 25px;
+        margin: 5px 0;
+        margin-right: 7px;
+        border-radius: 30px;
+        border: 2px solid #e5e5e5;
+        box-shadow: 0 10px 10px -8px rgba(0, 0, 0 / 78%);
+    }
+
+    .btn.active {
+        border-color: #007ced;
+        background: green;
+    }
+
+    .btn-group .btn:hover {
+        background: green;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+</style>
+
+<body>
+    <h2 style="color: white;">Activity 1&2 - HTML Favicon & Images</h2>
+    <address style="color: white;">
+        Published By: Ervie A. Benliro<br>
+        ICT 11-C Programming<br>
+        CBNSHS San Nicolas III<br>
+        Bacoor Cavite<br>
+    </address>
+    <h2>The border-style Property</h2>
+    <p>This property specifies what kind of border to display:</p>
+    <p class="dotted">A dotted border.</p>
+    <p class="dashed">A dashed border with opacity.</p>
+    <p class="solid">A solid border with background image.</p>
+    <p class="double">A double border.</p>
+    <p class="groove">A groove border.</p>
+    <p class="ridge">A ridge border.</p>
+    <p class="inset">An inset border.</p>
+    <p class="outset">An outset border.</p>
+    <p class="none">No border.</p>
+    <p class="hidden">A hidden border.</p>
+    <p class="mix">A mixed border with background image.</p>
+
+    <div class="btn-group">
+        <a href="attachment.html" class="btn active">Proceed to Background Attachment topic</a>
+    </div>
+</body>
+
+</html>
