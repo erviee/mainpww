@@ -1,0 +1,71 @@
+body {
+    padding: 30px;
+    background-color: rgb(228, 231, 238);
+    background-image: url("unitednation.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+/*Image element*/
+.image {
+    background-image: url("flag.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/*CSS Hover Animation*/
+.hover-animation {
+    display: inline-block;
+    position: relative;
+    color: #0a0a0a;
+}
+/*CSS Hover Animation*/
+.hover-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(-45deg, red, yellow, green);
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+/*CSS Hover Animation*/
+.hover-animation:hover:after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+/*To Style the Second Heading*/
+h2 {
+    border-bottom: 1px solid rgba(12, 11, 11, 0.5);
+    color: rgba(12, 12, 12, 0.5);
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+    width: 100%;
+    font-family: Georgia;
+    padding-bottom: 20px;
+}
+p {
+    color: #000;
+    margin: 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding: 10px;
+}
+.second-heading {
+    color: rgb(27, 26, 26);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+/*CSS Border*/
+h1.solid {
+    border-style: solid;
+    color: rgb(18, 18, 19);
+    text-align: center;
+    background-color: chocolate;
+}
