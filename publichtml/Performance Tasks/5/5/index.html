@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            display: flex;
+            margin: 15%;
+            padding: 20px;
+            background: cadetblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        h1 {
+            color: cadetblue;
+            border: 2px hidden;
+            width: 300px;
+            height: 80px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: aquamarine;
+            border-radius: 20px;
+            padding-top: 10px;
+            margin-right: 20px;
+        }
+
+        .div {
+            color: #000;
+            background: linear-gradient(45deg,
+                    #ff0000,
+                    #fffb00,
+                    #48ff00,
+                    #ff0000);
+            border: 3px solid;
+            padding-left: 10;
+            width: 300px;
+            height: 250px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-color: transparent;
+            border-radius: 20px;
+            padding: 20px;
+            padding-bottom: 25px;
+            margin-left: 25px;
+        }
+
+        .div h2 {
+            color: cadetblue;
+            background: black;
+            border: 1px solid;
+            width: auto;
+            border-radius: 20px;
+        }
+
+        .div p {
+            font-weight: bold;
+        }
+    </style>
+    <h1>Body Mass Index</h1>
+    <div class="div">
+        <h2>Height</h2>
+        <p>1.69</p>
+        <h2>Weight</h2>
+        <p>56</p>
+        <h2>BMI</h2>
+        <p>19.60 - (Normal)</p>
+    </div>
+    <div class="div">
+        <h2>Calculate your BMI</h2>
+        <p>Height</p>
+        <input type="number" min="0" max="500">
+        <p>Weight</p>
+        <input type="number" min="0" max="500"><br><br>
+        <button>Total</button>
+        <input type="number" min="0" max="500">
+    </div>
+</body>
+
+</html>
