@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd/Even Sum Calculator</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        background-color: gray;
+        font-size: 20px;
+        color: rgb(27, 27, 26);
+    }
+
+    .result {
+        background: linear-gradient(rgb(169, 231, 169), rgb(165, 165, 224), rgb(226, 226, 156));
+        margin: 15px;
+        border-radius: 10px;
+        border: 1px transparent black;
+        padding: 10px;
+        text-align: center;
+        width: 40%;
+    }
+    label {
+        font-weight: 500%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    h1, h2 {
+        padding: 20px;
+        background: linear-gradient(rgb(169, 231, 169), rgb(165, 165, 224), rgb(226, 226, 156));
+        box-shadow: 6px 5px 5px 0px;
+        border-radius: 5px;
+        padding-right: 10px;
+        width: 35%;
+    }
+    input {
+        background: linear-gradient(rgb(169, 231, 169), rgb(165, 165, 224), rgb(226, 226, 156));
+        box-shadow: 6px 5px 5px 0px;
+        border-radius: 5px;
+        padding-right: 10px;
+    }
+    .container {
+        margin: 30px;
+        padding: 20px;
+    }
+    .container input {
+        justify-content: center;
+    }
+    button {
+        padding: 10px;
+        border-radius: 15px;
+        background-color: rgb(198, 221, 153);
+    }
+
+    .column {
+        float: right;
+        width: 40%;
+        padding: 40px;
+        height: 300px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <div class="column">
+            <h2>Result</h2>
+            <div class="row">
+                <div class="result" id="output">
+                </div>
+            </div>
+        </div>
+        <h1>Odd/Even Sum Calculator</h1><br>
+
+        <p>Enter 25 integers:</p>
+        <div>
+            <label for="num1">Integer 01:</label>
+            <input type="text" id="num1">
+            <label for="num2">Integer 02:</label>
+            <input type="text" id="num2"><br>
+            <label for="num3">Integer 03:</label>
+            <input type="text" id="num3">
+            <label for="num4">Integer 04:</label>
+            <input type="text" id="num4"><br>
+            <label for="num5">Integer 05:</label>
+            <input type="text" id="num5">
+            <label for="num6">Integer 06:</label>
+            <input type="text" id="num6"><br>
+            <label for="num7">Integer 07:</label>
+            <input type="text" id="num7">
+            <label for="num8">Integer 08:</label>
+            <input type="text" id="num8"><br>
+            <label for="num9">Integer 09:</label>
+            <input type="text" id="num9">
+            <label for="num10">Integer 10:</label>
+            <input type="text" id="num10"><br>
+            <label for="num11">Integer 11:</label>
+            <input type="text" id="num11">
+            <label for="num12">Integer 12:</label>
+            <input type="text" id="num12"><br>
+            <label for="num13">Integer 13:</label>
+            <input type="text" id="num13">
+            <label for="num14">Integer 14:</label>
+            <input type="text" id="num14"><br>
+            <label for="num15">Integer 15:</label>
+            <input type="text" id="num15">
+            <label for="num16">Integer 16:</label>
+            <input type="text" id="num16"><br>
+            <label for="num17">Integer 17:</label>
+            <input type="text" id="num17">
+            <label for="num18">Integer 18:</label>
+            <input type="text" id="num18"><br>
+            <label for="num19">Integer 19:</label>
+            <input type="text" id="num19">
+            <label for="num20">Integer 20:</label>
+            <input type="text" id="num20"><br>
+            <label for="num21">Integer 21:</label>
+            <input type="text" id="num21">
+            <label for="num22">Integer 22:</label>
+            <input type="text" id="num22"><br>
+            <label for="num23">Integer 23:</label>
+            <input type="text" id="num23">
+            <label for="num24">Integer 24:</label>
+            <input type="text" id="num24"><br>
+            <label for="num25">Integer 25:</label>
+            <input type="text" id="num25"><br>
+        </div><br>
+
+        <button onclick="calculate()">Calculate</button>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

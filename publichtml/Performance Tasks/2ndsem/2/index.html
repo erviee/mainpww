@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT2</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: linear-gradient(90deg, #ffffff, #0b5764);
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    span {
+        color: green;
+    }
+
+    input[type="text"] {
+        width: 35px;
+        margin: 5px;
+        border-radius: 6px;
+    }
+
+    #result {
+        margin-top: 20px;
+    }
+
+    button {
+        background-color: #ce34ac;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+
+<body>
+
+    <h1>Odd or Even and its Sum</h1>
+    <h2>Performance Task 2</h2>
+    <p>Enter <span> 10 </span> integers below:</p>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="text" id="num3">
+    <input type="text" id="num4">
+    <input type="text" id="num5"><br>
+    <input type="text" id="num6">
+    <input type="text" id="num7">
+    <input type="text" id="num8">
+    <input type="text" id="num9">
+    <input type="text" id="num10"><br><br>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result"></div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
