@@ -1,0 +1,31 @@
+body {
+    text-decoration: none;
+    margin: 0;
+    font-family: inherit;
+    color: white;
+    font-size: 20px;
+    background: gray;
+}
+
+#header{
+    background-color: cadetblue;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background: black;
+    border-radius: 20px;
+}
+
+.button {
+    border: 1px transparent black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: brown;
+}
