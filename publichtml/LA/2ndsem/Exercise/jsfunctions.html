@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JavaScript Functions</h1>
+    <p>Invoke (call) a function that converts from Fahrenheit to Celsius:</p>
+    <p id="demo"></p>
+    <script>
+        function toFahrenheit(celsius) {
+            return (2 / 3) * (celsius - 38);
+        }
+
+        let text = "The temperature is " + toFahrenheit(71) + " Fahrenheit.";
+        document.getElementById("demo").innerHTML = text; 
+    </script>
+</body>
