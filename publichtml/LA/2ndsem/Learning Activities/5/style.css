@@ -1,0 +1,20 @@
+body {
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-image: url('z.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+h4 {
+    color: black;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+p {
+    border: 3px solid grey;
+    margin: 10px 50px 10px 50px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>learning 5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Ascending Form and other Mathematical Operations</h1>
+
+<script>
+window.onload = function() {
+    var numberInput = parseInt(prompt("Enter an integer greater than 0:"));
+    var output = document.getElementById("output");
+
+    if (isNaN(numberInput) || numberInput <= 0) {
+        output.innerText = "Please enter a valid integer greater than 0.";
+        return;
+    }
+
+    var ascendingNumbers = [];
+    var sum = 0;
+
+    for (var i = 1; i <= numberInput; i++) {
+        ascendingNumbers.push(i);
+        sum += i;
+    }
+
+    output.innerHTML = "<p>Ascending Numbers: " + ascendingNumbers.join(", ") + "</p>";
+    output.innerHTML += "<p>Sum of Numbers: " + sum + "</p>";
+    output.innerHTML += "<p>Square of the Sum: " + (sum * sum) + "</p>";
+    output.innerHTML += "<p>Product of the Numbers: " + factorial(numberInput) + "</p>";
+}
+
+function factorial(num) {
+    if (num === 0 || num === 1) {
+        return 1;
+    } else {
+        return num * factorial(num - 1);
+    }
+}
+</script>
+
+<div id="output"></div>
+
+</body>
+</html>

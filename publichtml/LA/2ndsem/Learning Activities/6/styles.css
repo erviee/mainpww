@@ -1,0 +1,38 @@
+body {
+    margin: 10%;
+    padding: 20px;
+    display: flex;
+    background-color: cadetblue;
+}
+
+.div {
+    background: linear-gradient(-45deg, gray, pink, yellow, green);
+    color: #000;
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 25px;
+    margin-left: 355px;
+    opacity: 0.82;
+    box-shadow: 5px 5px 5px 2px;
+}
+
+.div input {
+    border-radius: 10px;
+}
+
+.div button {
+    padding: 7px;
+    width: 30%;
+    background: bisque;
+    border-radius: 10px;
+}
+
+.div button:hover {
+    background-color: palevioletred;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
