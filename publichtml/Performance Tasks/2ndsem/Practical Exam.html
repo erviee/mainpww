@@ -1,0 +1,79 @@
+homiesanggre<br>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        color: #000;
+        background: linear-gradient(45deg, #469cce, pink);
+        border: 3px solid;
+        height: 300px;
+        width: 250px;
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+
+
+    <div class="container">
+        <input type="number" id="n1"><br>
+        <input type="number" id="n2"><br><br>
+        <button type="button" onclick="calculateG()">x</button>
+        <button type="button" onclick="calculateG2()">/</button>
+        <button type="button" onclick="calculateG3()">+</button>
+        <button type="button" onclick="calculateG4()">-</button>
+        <div id="result"></div>
+    </div>
+    <script>
+
+        function calculateG() {
+            var number1 = parseFloat(document.getElementById('n1').value);
+            var number2 = parseFloat(document.getElementById('n2').value);
+
+            var total = (number1 * number2);
+
+            document.getElementById('result').innerHTML = total;
+        }
+
+        function calculateG2() {
+            var number1 = parseFloat(document.getElementById('n1').value);
+            var number2 = parseFloat(document.getElementById('n2').value);
+
+            var total = (number1 / number2);
+
+            document.getElementById('result').innerHTML = total;
+        }
+
+        function calculateG3() {
+            var number1 = parseFloat(document.getElementById('n1').value);
+            var number2 = parseFloat(document.getElementById('n2').value);
+
+            var total = (number1 + number2);
+
+            document.getElementById('result').innerHTML = total;
+        }
+
+        function calculateG4() {
+            var number1 = parseFloat(document.getElementById('n1').value);
+            var number2 = parseFloat(document.getElementById('n2').value);
+
+            var total = (number1 - number2);
+
+            document.getElementById('result').innerHTML = total;
+        }
+    </script>
+</body>
+
+</html>

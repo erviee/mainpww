@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Fill in the Form</h2><br>
+    <form action="#" method="post">
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br>
+
+        <h3>Sex:</h3>
+        <div id="sex">
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label><br><br>
+        </div>
+
+        <h3>Pogi ba ako</h3>
+        <div id="gwapo">
+            <input type="checkbox" id="Oo" name="Oo"> 
+            <label for="Oo">Oo</label>
+            <input type="checkbox" id="pwede" name="pwede">
+            <label for="hindi">Pwede</label><br><br>
+        </div>
+
+        <h3>How do you go to school?</h3>
+        <div id="howtoschool">
+            <select id="how_to_school" name="how_to_school">
+                <option value="car" id="car">Car</option>
+                <option value="commute" id="commute">Commute</option>
+                <option value="bus" id="bus">Bus</option>
+            </select><br><br>
+        </div>
+
+        <div id="birthmonth">
+            <label for="birth_month">In what month were you born?</label><br>
+            <input type="date" id="birth_month" name="birth_month"><br><br>
+        </div>
+
+        <div id="aboutme">
+            <label for="about_yourself">Please say something about yourself</label><br>
+            <textarea id="about_yourself" name="about_yourself" rows="4" cols="50"></textarea><br><br>
+        </div>
+
+        <button onclick="resetB()">Reset this form</button>
+        <button onclick="submitBtn()">Submit</button>
+    </form>
+
+
+<script src="main.js"></script>
+</body>
+</html>
