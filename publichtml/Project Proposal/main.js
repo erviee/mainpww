@@ -1,3 +1,4 @@
+alert('Group Members: Prenciona, Duclayan, Benliro, Camigla, Gaboc, Asirot')
 // Find all Add to Cart buttons using document.querySelectorAll
 var addToCartButtons = document.querySelectorAll('.addToCartBtn');
 
