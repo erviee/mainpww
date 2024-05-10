@@ -271,3 +271,18 @@ nav .navlinks li a:hover{
     display: block;
   }
 
+#js {
+    background: linear-gradient(rgb(240, 47, 47), rgb(29, 233, 29), rgb(99, 99, 252));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+#sql {
+    background: linear-gradient(rgb(238, 49, 49), rgb(78, 78, 228));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
